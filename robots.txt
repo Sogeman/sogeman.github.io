@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aumaerk.com/sitemap.xml
