@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[316],{3316:function(s,v,e){e.r(v);var h=e(2322);v.default=()=>(0,h.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 -960 960 960",children:(0,h.jsx)("path",{d:"M120-240v-80h720v80zm0-200v-80h720v80zm0-200v-80h720v80z",fill:"currentColor"})})}}]);

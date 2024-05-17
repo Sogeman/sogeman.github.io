@@ -1,1 +1,0 @@
-# sogeman.github.io
