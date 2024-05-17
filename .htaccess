@@ -10,6 +10,9 @@ RewriteEngine On
 # Prevent any further processing if the URL already ends with a file extension
 RewriteRule \.\w{2.4}$ - [L]
 
+RewriteCond %{REQUEST_URI} !^/(at-de|at-en|de-de|de-en|ch-de|ch-en)/
+RewriteRule ^(.*)$ /at-de/$1 [L,R=301]
+
 # Redirect any requests to remove a trailing slash
 # Test with 302 and set to 301 Redirect when working to avoid caching issues
 # Only relevant for non trailing shlash configuration
@@ -28,5 +31,3 @@ ErrorDocument 404 /404.html
 ErrorDocument 403 /403.html
 ErrorDocument 500 /500.html
 
-RewriteCond %{REQUEST_URI} !^/(at-de|at-en|de-de|de-en|ch-de|ch-en)/
-RewriteRule ^(.*)$ /at-de/$1 [L,R=301]
